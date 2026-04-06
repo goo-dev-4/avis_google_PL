@@ -43,13 +43,32 @@
       "Bash(sed -i 's|temoignage-avis-google-5\\\\.webp|opinia-klienta-google-5.webp|g' *.html sitemap.xml)",
       "Bash(grep -rli \"Zamow[^ó]\" *.html)",
       "Bash(grep -c \"Zamów\" *.html)",
-      "Bash(grep -Pn \"Zamow\\(?!ó\\)\" *.html)"
+      "Bash(grep -Pn \"Zamow\\(?!ó\\)\" *.html)",
+      "Bash(sed -i 's|>Falszywe|>Fałszywe|g' *.html)",
+      "Bash(sed -i 's| falszywe | fałszywe |g' *.html)",
+      "Bash(sed -i 's| falszywe<| fałszywe<|g' *.html)",
+      "Bash(sed -i 's|>falszywe |>fałszywe |g' *.html)",
+      "Bash(sed -i 's|\"Falszywe|\"Fałszywe|g' *.html)",
+      "Bash(sed -i 's|rzemieślnikow|rzemieślników|g' *.html)",
+      "Bash(sed -i 's|rzemieslnikow|rzemieślników|g' *.html)",
+      "Bash(sed -i 's|arborystow|arborystów|g' *.html)",
+      "Bash(sed -i 's|architektow|architektów|g' *.html)",
+      "Bash(sed -i 's|elektrykow|elektryków|g' *.html)",
+      "Bash(sed -i 's|Dziesiatki|Dziesiątki|g' *.html)",
+      "Bash(sed -i 's|czytajacych|czytających|g' *.html)",
+      "Bash(sed -i 's|brakujaca|brakująca|g' *.html)",
+      "Bash(sed -i 's|pozwalaja|pozwalają|g' *.html)",
+      "Bash(sed -i 's|zbudowac|zbudować|g' *.html)",
+      "Bash(find . -maxdepth 1 -name \"sed*\" -exec rm -f {} \\\\;)",
+      "Bash(find . -maxdepth 1 -name \"sed*\" -delete)",
+      "Bash(find . -maxdepth 1 -name \"sed*\" -type f -delete)"
     ],
     "additionalDirectories": [
       "\\tmp",
       "c:\\tmp",
       "C:\\Users\\Webpr\\Desktop",
-      "C:\\Users\\Webpr\\Desktop\\E-Commerce_\\Google_8\\kup-recenzje.com"
+      "C:\\Users\\Webpr\\Desktop\\E-Commerce_\\Google_8\\kup-recenzje.com",
+      "c:\\Users\\Webpr\\Desktop\\E-Commerce_\\Google_8\\kup-recenzje.com"
     ]
   }
 }
