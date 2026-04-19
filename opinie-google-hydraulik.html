@@ -36,225 +36,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://kup-recenzje.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Opinie Google Hydraulik", "item": "https://kup-recenzje.com/opinie-google-hydraulik.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Kup Recenzje",
-        "url": "https://kup-recenzje.com",
-        "logo": "https://kup-recenzje.com/kup-recenzje-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nasze usługi",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Kup Opinie Google Hydraulik",
-                        "url": "https://kup-recenzje.com/opinie-google-hydraulik.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Strona główna",
+                        "item": "https://kup-recenzje.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Opinie Google Hydraulik",
+                        "item": "https://kup-recenzje.com/opinie-google-hydraulik.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Czy opinie wspominają o konkretnych usługach hydraulicznych?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tak, nasze opinie opisują realne sytuacje: naprawę wycieku, montaż podgrzewacza wody, udrożnienie rur. Każda opinia jest dostosowana do usług, które oferujesz."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Ile opinii potrzebuje niezależny hydraulik?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Pakiet od 25 do 50 opinii zazwyczaj wystarcza, aby zdominować swoją strefę geograficzną. Hydraulicy często mają mało opinii, co pozwala szybko się wyróżnić."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Czy opinie pomagają pojawić się w lokalnym pakiecie Google?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Zdecydowanie. Liczba i jakość opinii to jedne z głównych czynników rankingowych w lokalnym pakiecie Google. Im więcej pozytywnych opinii, tym wyżej wyświetla się Twoją wizytówka."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Czy można kierować opinie na konkretny obszar geograficzny?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tak, nasze konta są geolokalizowane w Polsce i możemy dostosować opinie tak, aby wspominały o Twoim mieście lub obszarze działania, wzmacniając Twoją lokalną obecność."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nasze Oferty Pozytywnych Opinii",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Pozytywnych Opinii + 5 gratis",
-                    "description": "Pakiet 25 pozytywnych opinii Google z polskimi kontami, spersonalizowanymi tekstami, dożywotnią gwarancją i obsługą klienta 24/7.",
-                    "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PL"
+                "@type": "Organization",
+                "name": "Kup Recenzje",
+                "url": "https://kup-recenzje.com",
+                "logo": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nasze usługi",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "kup opinie google hydraulik",
+                                "url": "https://kup-recenzje.com/opinie-google-hydraulik.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PL",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Czy opinie wspominają o konkretnych usługach hydraulicznych?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tak, nasze opinie opisują realne sytuacje: naprawę wycieku, montaż podgrzewacza wody, udrożnienie rur. Każda opinia jest dostosowana do usług, które oferujesz."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Ile opinii potrzebuje niezależny hydraulik?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Pakiet od 25 do 50 opinii zazwyczaj wystarcza, aby zdominować swoją strefę geograficzną. Hydraulicy często mają mało opinii, co pozwala szybko się wyróżnić."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Czy opinie pomagają pojawić się w lokalnym pakiecie Google?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Zdecydowanie. Liczba i jakość opinii to jedne z głównych czynników rankingowych w lokalnym pakiecie Google. Im więcej pozytywnych opinii, tym wyżej wyświetla się Twoją wizytówka."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Czy można kierować opinie na konkretny obszar geograficzny?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tak, nasze konta są geolokalizowane w Polsce i możemy dostosować opinie tak, aby wspominały o Twoim mieście lub obszarze działania, wzmacniając Twoją lokalną obecność."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Pozytywnych Opinii + 10 gratis",
-                    "description": "Pakiet 50 pozytywnych opinii Google z polskimi kontami, spersonalizowanymi tekstami, dożywotnią gwarancją i obsługą klienta 24/7.",
-                    "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nasze Oferty Pozytywnych Opinii",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Pozytywnych Opinii + 5 gratis",
+                            "description": "Pakiet 25 pozytywnych opinii Google z polskimi kontami, spersonalizowanymi tekstami, dożywotnią gwarancją i obsługą klienta 24/7.",
+                            "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PL"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PL"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PL",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Pozytywnych Opinii + 10 gratis",
+                            "description": "Pakiet 50 pozytywnych opinii Google z polskimi kontami, spersonalizowanymi tekstami, dożywotnią gwarancją i obsługą klienta 24/7.",
+                            "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Pozytywnych Opinii + 20 gratis",
+                            "description": "Pakiet 100 pozytywnych opinii Google z polskimi kontami, spersonalizowanymi tekstami, dożywotnią gwarancją i obsługą klienta 24/7.",
+                            "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Pozytywnych Opinii + 20 gratis",
-                    "description": "Pakiet 100 pozytywnych opinii Google z polskimi kontami, spersonalizowanymi tekstami, dożywotnią gwarancją i obsługą klienta 24/7.",
-                    "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PL"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PL",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

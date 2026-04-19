@@ -37,235 +37,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@graph": [
             {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Strona główna",
-                "item": "https://kup-recenzje.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Usuwanie Opinii Google",
-                "item": "https://kup-recenzje.com/usunac-opinie-google.html"
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Kup Recenzje",
-        "url": "https://kup-recenzje.com",
-        "logo": "https://kup-recenzje.com/kup-recenzje-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nasze usługi",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Strona główna",
+                        "item": "https://kup-recenzje.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Usuwanie Opinii Google",
-                        "url": "https://kup-recenzje.com/usunac-opinie-google.html"
+                        "item": "https://kup-recenzje.com/usunac-opinie-google.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Jak usuwacie negatywne opinie?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stosujemy metody zgodne z warunkami uzytkowania Google, aby zglosic i usunac opinie naruszajace regulamin platformy."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Ile czasu trwa usuniecie?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Usuniecie trwa zazwyczaj od 3 do 14 dni w zaleznosci od przypadku. Informujemy Cie o postepach na każdym etapie."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Czy wszystkie opinie mogą zostać usuniete?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Większosc negatywnych opinii moze zostać usunieta. Analizujemy każdy przypadek i informujemy Cie o możliwosciach przed przystąpieniem do dzialania."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Jaka jest Wasza gwarancja?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Gwarantujemy usuniecie opinii. Jeśli opinia nie moze zostać usunieta, zwracamy pieniadze lub proponujemy alternatywe."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nasze Oferty Usuwania Opinii Google",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "10 Usuniec Opinii Google",
-                    "description": "Pakiet 10 usunietych opinii Google z gwarantowanym usunieciem, szybki termin 3-14 dni, dyskretna usługa i faktura.",
-                    "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "50",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 3,
-                                    "maxValue": 14,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PL"
+                "@type": "Organization",
+                "name": "Kup Recenzje",
+                "url": "https://kup-recenzje.com",
+                "logo": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nasze usługi",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "usuwanie opinii google",
+                                "url": "https://kup-recenzje.com/usunac-opinie-google.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PL",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Jak usuwacie negatywne opinie?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Stosujemy metody zgodne z warunkami uzytkowania Google, aby zglosic i usunac opinie naruszajace regulamin platformy."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Ile czasu trwa usuniecie?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Usuniecie trwa zazwyczaj od 3 do 14 dni w zaleznosci od przypadku. Informujemy Cie o postepach na każdym etapie."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Czy wszystkie opinie mogą zostać usuniete?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Większosc negatywnych opinii moze zostać usunieta. Analizujemy każdy przypadek i informujemy Cie o możliwosciach przed przystąpieniem do dzialania."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Jaka jest Wasza gwarancja?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Gwarantujemy usuniecie opinii. Jeśli opinia nie moze zostać usunieta, zwracamy pieniadze lub proponujemy alternatywe."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "15 Usuniec Opinii Google",
-                    "description": "Pakiet 15 usunietych opinii Google z gwarantowanym usunieciem, szybki termin 3-14 dni, dyskretna usługa i faktura.",
-                    "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "60",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nasze Oferty Usuwania Opinii Google",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "10 Usuniec",
+                            "description": "Pakiet 10 usunietych opinii Google z gwarantowanym usunieciem, szybki termin 3-14 dni, dyskretna usługa i faktura.",
+                            "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "50",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 3,
+                                            "maxValue": 14,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PL"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 3,
-                                    "maxValue": 14,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PL"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PL",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "15 Usuniec",
+                            "description": "Pakiet 15 usunietych opinii Google z gwarantowanym usunieciem, szybki termin 3-14 dni, dyskretna usługa i faktura.",
+                            "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "60",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 3,
+                                            "maxValue": 14,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "20 Usuniec",
+                            "description": "Pakiet 20 usunietych opinii Google z gwarantowanym usunieciem, szybki termin 3-14 dni, dyskretna usługa i faktura.",
+                            "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "70",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 3,
+                                            "maxValue": 14,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "PL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "PL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "20 Usuniec Opinii Google",
-                    "description": "Pakiet 20 usunietych opinii Google z gwarantowanym usunieciem, szybki termin 3-14 dni, dyskretna usługa i faktura.",
-                    "image": "https://kup-recenzje.com/kup-recenzje-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "70",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 3,
-                                    "maxValue": 14,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "PL"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "PL",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }
